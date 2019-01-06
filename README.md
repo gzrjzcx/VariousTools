@@ -3,7 +3,7 @@ There are various tools for Mac collected by myself, all of them are beneficial 
 
 ## Chrome Extensions
 
-#####	[Tabbo](https://chrome.google.com/webstore/detail/tabbo/hedbkonckghacebehjebpfknhdbobiko)
+1.#####	[Tabbo](https://chrome.google.com/webstore/detail/tabbo/hedbkonckghacebehjebpfknhdbobiko)
 This is an extension of Chrome browser. It is mainly used to manage tabs between different chrome windows. 
 **Please note that here windows means the instances of chrome(i.e. the process of chrome)**
 
@@ -12,7 +12,7 @@ This is an extension of Chrome browser. It is mainly used to manage tabs between
 
 * My settings:
 	* pop off the tab: command + p
-	* move current tab to another window: command + s
+	* move current tab to another window: command + e
 
 
 

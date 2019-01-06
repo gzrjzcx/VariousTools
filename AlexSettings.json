@@ -1,0 +1,124 @@
+{
+  "title": "Alex personal settings",
+  "rules": [
+				{
+                    "description": "Press right_shift alone produces F17",
+                    "manipulators": [
+                        {
+                            "from": {
+                                "key_code": "right_shift",
+                                "modifiers": {
+                                    "optional": [
+                                        "any"
+                                    ]
+                                }
+                            },
+                            "to": [
+                                {
+                                    "key_code": "right_shift"
+                                }
+                            ],
+                            "to_if_alone": [
+                                {
+                                    "key_code": "f17"
+                                }
+                            ],
+                            "type": "basic"
+                        }
+                    ]
+                },
+                {
+                    "description": "Press left_shift + tab produces F18",
+                    "manipulators": [
+                        {
+                            "from": {
+                                "key_code": "tab",
+                                "modifiers": {
+                                    "mandatory": [
+                                        "left_shift"
+                                    ]
+                                }
+                            },
+                            "to": [
+                                {
+                                    "key_code": "f18"
+                                }
+                            ],
+                            "type": "basic"
+                        }
+                    ]
+                },
+                {
+                    "description": "Press right_command alone produces triggle full screen",
+                    "manipulators": [
+                        {
+                            "from": {
+                                "key_code": "right_command",
+                                "modifiers": {
+                                    "optional": [
+                                        "any"
+                                    ]
+                                }
+                            },
+                            "to": [
+                                {
+                                    "key_code": "right_command"
+                                }
+                            ],
+                            "to_if_alone": [
+                                {
+                                    "key_code": "f",
+                                    "modifiers":[
+                                        "right_command",
+                                        "control"
+                                    ]
+                                }
+                            ],
+                            "type": "basic"
+                        }
+                    ]
+                },
+                {
+                    "description": "Press right_shift + a to open activity monitor",
+                    "manipulators": [
+                        {
+                            "from": {
+                                "key_code": "a",
+                                "modifiers": {
+                                    "mandatory": [
+                                        "right_shift"
+                                    ]
+                                }
+                            },
+                            "to": [
+                                {
+                                    "shell_command": "open '/Applications/Utilities/Activity Monitor.app'"
+                                }
+                            ],
+                            "type": "basic"
+                        }
+                    ]
+                },
+                {
+                    "description": "Press 'right_shift + \\' to open terminal",
+                    "manipulators": [
+                        {
+                            "from": {
+                                "key_code": "backslash",
+                                "modifiers": {
+                                    "mandatory": [
+                                        "right_shift"
+                                    ]
+                                }
+                            },
+                            "to": [
+                                {
+                                    "shell_command": "open '/Applications/Utilities/Terminal.app'"
+                                }
+                            ],
+                            "type": "basic"
+                        }
+                    ]
+                }
+  ]
+}

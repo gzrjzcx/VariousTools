@@ -17,7 +17,7 @@ This is an extension of Chrome browser. It is mainly used to manage tabs between
 
 ## Mac Tools
 
-### [Karabiner](https://github.com/tekezo/Karabiner-Elements)
+### [Karabiner:collision:](https://github.com/tekezo/Karabiner-Elements)
 Karabiner is a Mac tool which is used to customize keyboard. Not only the simple key substituation, but also various complex mapping rules are implemented. 
 
 * Requirement: It is weird that my Mac is not senstive for switching input sources with default shortcut key, in most cases I need to press command + space repeatedly many times, it is worse that the input sources can be switced all alone.  Therefore I want to use a single key to change input sources. My solution is mapping the right_shift to f17, and then change the switching input sources shortcut key to f17 at system preference. 

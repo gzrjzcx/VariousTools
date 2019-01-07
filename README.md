@@ -29,3 +29,28 @@ Karabiner is a Mac tool which is used to customize keyboard. Not only the simple
 	* Press right_command alone produces triggle full screen.
 	* Press right_shift + a to open activity monitor.
 	* Press 'right_shift + \' to open terminal
+
+### [Keyboard Maestro:collision:](https://www.keyboardmaestro.com/main/)
+This is also a very fantastic tool to help us manage Mac well, it allows us to use macros(work flow) to control Mac including launching application, click the mouse and so on. What it can do beyond your imagination!
+
+* Requirement: Because I want to implement that using left_command to change input source to ABC, and right_command to change input source to the other language, therefore I need to use Maestro to define macros.
+
+* My Settings: 
+	* Please note that there is a bash shell script to get the name of current input source, this is can be seen here: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

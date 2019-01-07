@@ -2,37 +2,11 @@
   "title": "Alex personal settings",
   "rules": [
 				{
-                    "description": "Press right_shift alone produces F17",
+                    "description": "Press caps_lock alone produces F17, press left_shift + caps_lock produces caps_lock",
                     "manipulators": [
-                        {
+                    	{
                             "from": {
-                                "key_code": "right_shift",
-                                "modifiers": {
-                                    "optional": [
-                                        "any"
-                                    ]
-                                }
-                            },
-                            "to": [
-                                {
-                                    "key_code": "right_shift"
-                                }
-                            ],
-                            "to_if_alone": [
-                                {
-                                    "key_code": "f17"
-                                }
-                            ],
-                            "type": "basic"
-                        }
-                    ]
-                },
-                {
-                    "description": "Press left_shift + tab produces F18",
-                    "manipulators": [
-                        {
-                            "from": {
-                                "key_code": "tab",
+                                "key_code": "caps_lock",
                                 "modifiers": {
                                     "mandatory": [
                                         "left_shift"
@@ -41,7 +15,28 @@
                             },
                             "to": [
                                 {
-                                    "key_code": "f18"
+                                    "key_code": "caps_lock"
+                                }
+                            ],
+                            "type": "basic"
+                        },
+                        {
+                            "from": {
+                                "key_code": "caps_lock",
+                                "modifiers": {
+                                    "optional": [
+                                        "any"
+                                    ]
+                                }
+                            },
+                            "to": [
+                                {
+                                    "key_code": "f19"
+                                }
+                            ],
+                            "to_if_alone": [
+                                {
+                                    "key_code": "f17"
                                 }
                             ],
                             "type": "basic"

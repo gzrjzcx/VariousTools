@@ -36,7 +36,7 @@ This is also a very fantastic tool to help us manage Mac well, it allows us to u
 * Requirement: Because I want to implement that using left_command to change input source to ABC, and right_command to change input source to the other language, therefore I need to use Maestro to define macros.
 
 * My Settings: 
-	* ![change_to_ABC](https://github.com/gzrjzcx/VariousTools/blob/master/res/maestro.png|width=48). 
+	* <img src="https://github.com/gzrjzcx/VariousTools/blob/master/res/maestro.png" width="48">
 	* Please note that there is a bash shell script to get the name of current input source, this is can be seen below. 
 
 

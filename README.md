@@ -37,7 +37,13 @@ This is also a very fantastic tool to help us manage Mac well, it allows us to u
 
 * My Settings: 
 	* <img src="https://github.com/gzrjzcx/VariousTools/blob/master/res/maestro.png" width="48">
-	* Please note that there is a bash shell script to get the name of current input source, this is can be seen below. 
+	* Please note that there is a bash shell script to get the name of current input source, this is can be seen below.
+	* [input-source-siwtcher](https://github.com/vovkasm/input-source-switcher) 
+
+### [Keyboard pilot](https://itunes.apple.com/us/app/keyboard-pilot/id402670023?mt=12)
+A tiny tool to set the default input source for different applications. It is distinct from the built-in function of Mac(i.e. Automatically switch to a document's input source). Specifically, Pilot allows you get the correct default input source *permanently*. No matter how long one application is not launched and how many applicaitons are opened, once the default input source is defined, it is always the defined input source.
+
+* Requirement: Since I am a non-English developer, in most cases I need to look up dictionary, and then the automatically switch doesn't work for me. In the other hand, there are some migration version games installed at my Mac, therefore the default language is not English of my Mac.
 
 
 

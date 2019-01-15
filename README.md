@@ -45,8 +45,6 @@ A tiny tool to set the default input source for different applications. It is di
 
 * Requirement: Since I am a non-English developer, in most cases I need to look up dictionary, and then the automatically switch doesn't work for me. In the other hand, there are some migration version games installed at my Mac, therefore the default language is not English of my Mac.
 
-### Intel Compiler s1702794_zcx
-
 
 
 
